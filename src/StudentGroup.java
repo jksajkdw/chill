@@ -317,7 +317,7 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public Student getNextStudent(Student student) {
+	public Student getNextStudent(Student student) throws IllegalArgumentException {
 		// Add your implementation here
 		int index=0;
 		if(Check(student)==0)
